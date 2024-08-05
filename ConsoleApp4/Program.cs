@@ -1,7 +1,7 @@
 ﻿namespace MembershipDiscount
     {
         class Program
-        {
+        {//enum for the discount rates 
             enum DiscountRates
             {
                 YearTo4Years = 5,
@@ -45,7 +45,7 @@
                     int yearPeriod = currentYear - dateRegistered;
 
                 // Showing and displaying the discount based on how long user has been a member using if statements.can use case statement 
-
+                //Referancing enums to give the discount 
                 switch (yearPeriod)
                 {
                     case < 0:
@@ -69,7 +69,7 @@
                         break;
 
                 }
-                        /*
+                        /* when using an if statement to check user discount. 
 
                         if (yearPeriod < 0)
                             {
